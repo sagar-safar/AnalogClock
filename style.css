@@ -1,0 +1,190 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+    
+}
+
+
+
+
+
+.clock{
+    display: flex;
+    width:200px;
+    height: 200px;
+    box-shadow: 2px 4px 16px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+
+}
+
+
+.hand{
+    width:10px;
+    height: 50px;
+    background-color: red;
+    transform-origin: bottom;
+    transform: rotate(0deg);
+    position: absolute;
+    top:25%;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+
+}
+
+
+
+.min{
+    width:4px;
+    height: 80px;
+    background-color: blue;
+    transform-origin: bottom;
+    transform: rotate(0deg);
+    position: absolute;
+    top:11%;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+
+}
+
+.sec{
+    width:1px;
+    height: 95px;
+    background-color: green;
+    transform-origin: bottom;
+    transform: rotate(0deg);
+    position: absolute;
+    top:3%;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+
+}
+
+
+
+.centre{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border-radius: 50%;
+    z-index: 12;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centre div{
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+
+.num{
+    width:0px;
+    height: 0px;
+    background-color:white;
+    position: absolute;
+    
+
+}
+.num12{
+    top:0%;
+    left:46%;
+}
+
+.num6{
+    top:92%;
+    left:48%;
+
+}
+
+.num3{
+    top:46%;
+    left:95%;
+}
+
+.num9{
+    top:46%;
+    left:1%;
+}
+
+
+.num1{
+    width:15px;
+    height: 5px;
+    top:9%;
+    left:70%;
+    transform: rotate(-57deg);
+}
+
+.num2{
+    width:15px;
+    height: 5px;
+    top:26%;
+    left:87%;
+    transform: rotate(-30deg);
+}
+
+.num4{
+    width:15px;
+    height: 5px;
+    top:72%;
+    left:87%;
+    transform: rotate(28deg);
+}
+
+.num5{
+    width:15px;
+    height: 5px;
+    top:89%;
+    left:70%;
+    transform: rotate(54deg);
+}
+
+.num7{
+    width:15px;
+    height: 5px;
+    top:89%;
+    left:23%;
+    transform: rotate(-52deg);
+}
+
+.num8{
+    width:15px;
+    height: 5px;
+    top:73%;
+    left:6%;
+    transform: rotate(-30deg);
+}
+
+.num10{
+    width:15px;
+    height: 5px;
+    top:26%;
+    left:6%;
+    transform: rotate(33deg);
+}
+
+.num11{
+    width:15px;
+    height: 5px;
+    top:8%;
+    left:23%;
+    transform: rotate(59deg);
+}
+
+span{
+    font-weight: 700;
+    color: white;
+}
